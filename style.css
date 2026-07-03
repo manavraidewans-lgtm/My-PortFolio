@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    /* overflow:hidden; */
+}
+
+/* Splash Screen  */
+
+#splash-screen{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg , #EEF2FF , #fff,#5B5FFF );
+    overflow:hidden;
+}
+
+
+.content{
+    text-align:center;
+    z-index:10;
+    line-height: -2rem;
+}
+
+.logo{
+    width:240px;
+    animation:zoom 1s ease;
+    height: 180px;
+}
+
+h1{
+    font-size:30px;
+    font-weight:700;
+    color:#111;
+    letter-spacing:3px;
+    animation:fadeUp 1s ease;
+}
+
+p{
+    margin-top:10px;
+    color:#666;
+    font-size:17px;
+    animation:fadeUp 1.2s ease;
+}
+
+
+.loader{
+    margin:auto;
+    margin-top:40px;
+    width:220px;
+    height:4px;
+    background:#ddd;
+    border-radius:50px;
+    overflow:hidden;
+}
+
+.line{
+    height:100%;
+    width:0;
+    border-radius:50px;
+    background:linear-gradient(90deg,#5B5FFF,#5b0da4);
+    animation:loading 2.5s forwards;
+}
+
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    animation:float 8s ease-in-out infinite;
+}
+
+/* .blob1{
+    width:280px;
+    height:280px;
+    background:#6C63FF33;
+    top:-80px;
+    left:-80px;
+}
+
+.blob2{
+    width:260px;
+    height:260px;
+    background:#A855F733;
+    bottom:-80px;
+    right:-80px;
+}
+
+.blob3{
+    width:180px;
+    height:180px;
+    background:#60A5FA33;
+    top:40%;
+    left:55%;
+} */
+
+
+/*Animation of Flash Screen*/
+
+@keyframes zoom{
+
+    from{
+
+        transform:scale(.7);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes loading{
+
+    to{
+
+        width:100%;
+
+    }
+
+}
+
+@keyframes float{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-30px);
+
+    }
+
+}
+
