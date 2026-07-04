@@ -36,17 +36,23 @@ img {
     background: linear-gradient(135deg, #EEF2FF, #fff, #5B5FFF);
     overflow: hidden;
     z-index: 9999;
+    flex-direction: column;
 }
 
 .content {
     text-align: center;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logo {
     width: 220px;
     height: auto;
     animation: zoom 1s ease;
+
 }
 
 h1 {
