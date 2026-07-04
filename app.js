@@ -18,3 +18,12 @@ setTimeout(()=>{
 },3000);
 
 });
+
+
+//  This is nav-bar --- Theme Toggle Menu //
+const toggle = document.getElementById("themeToggle");
+
+toggle.addEventListener("click", () => {
+    toggle.classList.toggle("active");
+    document.body.classList.toggle("dark");
+});

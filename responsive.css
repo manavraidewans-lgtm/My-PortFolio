@@ -1,4 +1,3 @@
-/*Flash Screen Media Querry*/
 
 /* Mobile */
 
@@ -21,4 +20,19 @@ p{
     width:170px;
 }
 
+.header {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.nav-bar {
+    height: 10%;
+    width: 100%;
+    background-color: dimgray;
+}
+
+
+.nav-icons {
+    display: none;
 }

@@ -6,8 +6,16 @@
 
 body{
     font-family:'Inter',sans-serif;
-    /* overflow:hidden; */
+    height: 100vh , auto;
+    width: 100%;
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Splash Screen  */
 
@@ -77,31 +85,6 @@ p{
     animation:float 8s ease-in-out infinite;
 }
 
-/* .blob1{
-    width:280px;
-    height:280px;
-    background:#6C63FF33;
-    top:-80px;
-    left:-80px;
-}
-
-.blob2{
-    width:260px;
-    height:260px;
-    background:#A855F733;
-    bottom:-80px;
-    right:-80px;
-}
-
-.blob3{
-    width:180px;
-    height:180px;
-    background:#60A5FA33;
-    top:40%;
-    left:55%;
-} */
-
-
 /*Animation of Flash Screen*/
 
 @keyframes zoom{
@@ -170,3 +153,117 @@ p{
 
 }
 
+
+
+
+
+
+/*      Header Section */
+
+.header {
+    height: 50rem;
+    width: 100%;
+    background-image: url(Assets/Header.PNG);
+}
+
+.nav-bar {
+    height: 10%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 1.3rem;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    /* background-color: aliceblue; */
+}
+
+.nav-logo img {
+    height: 200px;
+    width: 250px;
+}
+
+
+.nav-options {
+    height: 100%;
+    width: 55%;
+    /* background-color: dodgerblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-icons {
+    height: 100%;
+    width: 70%;
+    /* background-color: #5b0da4; */
+    display: flex;
+}
+
+.nav-icons ul {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icons ul li {
+    list-style: none;
+    font-weight: 700;
+}
+
+.nav-icons ul li a {
+    text-decoration: none;
+    color: #313449;
+    font-size: 1.1rem;
+}
+
+.nav-icons ul li a:hover {
+    color: #5d40ee;
+}
+
+.theme-toggle{
+    width:70px;
+    height:36px;
+    background:#fff;
+    border-radius:999px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:4px;
+    cursor:pointer;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.35s;
+}
+
+.icon{
+    width:28px;
+    height:28px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:15px;
+    z-index:2;
+}
+
+.toggle-circle{
+    position:absolute;
+    width:28px;
+    height:28px;
+    background:#1f2b59;
+    border-radius:50%;
+    right:4px;
+    transition:.35s ease;
+}
+
+.theme-toggle.active .toggle-circle{
+    transform:translateX(-34px);
+}
