@@ -1,70 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manav's PortFolio</title>
+    <title>Manav's Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
- <!-- This is the Splash Screen Code -->
-  <div id="splash-screen">
-   
-    <div class="content">
 
-        <img src="Assets/MRD logo.PNG" class="logo">
-            
-             <h1>MANAV RAI DEWAN</h1>
+    <!-- Splash Screen -->
+
+    <div id="splash-screen">
+
+        <div class="content">
+
+            <a href="#"><img src="Assets/MRD logo.PNG" class="logo" alt="MRD Logo"></a>
+
+            <h1>MANAV RAI DEWAN</h1>
+
             <p>Front-End Developer</p>
-            
+
             <div class="loader">
-            <div class="line"></div>
+                <div class="line"></div>
+            </div>
 
         </div>
 
     </div>
 
-</div>
 
 
-<!--        This is Header Section-->
+    <!-- Header -->
 
-<section class="header">
-    <div class="nav-bar">
-        <div class="nav-logo">
-            <img src="Assets/MRD logo.PNG" alt="">
-        </div>
-        <div class="nav-options">
-            <div class="nav-icons">
-                <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+    <header class="header">
+
+        <!-- Navigation -->
+
+        <nav class="nav-bar">
+
+            <div class="nav-logo">
+
+                <img src="Assets/MRD logo.PNG" alt="Logo">
+
             </div>
-            <div class="theme-toggle" id="themeToggle">
-            <div class="toggle-circle"></div>
 
-            <span class="icon sun">☀️</span>
-            <span class="icon moon">🌙</span>
+            <div class="nav-options">
+
+                <div class="nav-icons" id="navMenu">
+
+                    <ul>
+
+                        <li><a href="#">Home</a></li>
+
+                        <li><a href="#">About</a></li>
+
+                        <li><a href="#">Projects</a></li>
+
+                        <li><a href="#">Experience</a></li>
+
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Theme Toggle -->
+
+                <div class="theme-toggle" id="themeToggle">
+
+                    <div class="toggle-circle"></div>
+
+                    <span class="icon sun">☀️</span>
+
+                    <span class="icon moon">🌙</span>
+
+                </div>
+
+                <!-- Hamburger -->
+
+                <div class="hamburger" id="hamburger">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
             </div>
-        </div>
-    </div>
-</section>
+
+        </nav>
 
 
+        
 
+    </header>
 
-<script src="app.js"> </script>
+    <script src="app.js"></script>
+
 </body>
+
 </html>
