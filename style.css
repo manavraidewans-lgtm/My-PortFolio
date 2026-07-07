@@ -253,7 +253,7 @@ p {
 }
 
 
-/*      Hero Section */
+/*      Hero Section    */
 
 .hero {
     height: 90%;
@@ -265,6 +265,7 @@ p {
     padding: 3rem 8rem;
     flex-direction: column;
     background: url("Assets/Header.PNG") center/cover no-repeat;
+    gap: 2rem;
 }
 
 #First {
@@ -293,7 +294,6 @@ p {
 }
 
 .buttons {
-    padding: 1.1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,15 +309,59 @@ p {
    font-size: 1.3rem;
 }
 
+.buttons button p i {
+   font-size: 1.3rem;
+}
+
+
+#view {
+    padding: 0.8rem 1.5rem;
+    border: 0.5px solid #060930;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6C63FF 0%, #A855F7 100%);
+}
+
+#view p {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+
+#download {
+    background-color: #FFF;
+    border: 0.5px solid #060930;
+    border-radius: 10px;
+    gap: 1rem;
+    /* padding: 0.8rem 1.5rem; */
+}
+
+#download p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #08080a; 
+}
+
+
+
 
 .icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
-    padding: 1rem 0;
     gap: 2.2rem;
 }
+
+.icons a i {
+    color: #08080a;
+    font-size: 1.8rem;
+}
+
 
 
 /*      ABOUT SECTION       */
