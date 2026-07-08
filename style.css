@@ -101,7 +101,7 @@ p {
 /*       HEADER / NAVBAR         */
 
 .header {
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
     background: linear-gradient( 130deg, #EEF2FF, #f9f0fd, #f9f0fd);
     border: none;
@@ -263,7 +263,7 @@ p {
 /*      Hero Section    */
 
 .hero {
-    height: 90%;
+    height: 100%;
     width: 100%;
     background: transparent;
     display: flex;
@@ -389,22 +389,11 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*      ABOUT SECTION       */
-#About {
-    margin-top: 3rem;
-    height: 100rem;
+/*      DIVIDER     */
+.divider {
+    height: 0.5rem;
     width: 100%;
-    background-color: #5b0da4;
+    background: linear-gradient( 130deg, #7c88ac, #b091be, #9b8aa3);
 }
 
 
@@ -415,7 +404,61 @@ p {
 
 
 
+/*      ABOUT SECTION       */
 
+#About {
+    height: 43rem;
+    width: 100%;
+    background-color: #fbfbfd;
+}
+
+#heading-about {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.5rem;
+    color: #7f72c7;
+}
+
+.about-content {
+    height: 37rem;
+    width: 100%;
+    /* background-color: #5B5FFF; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content-left {
+    height: 100%;
+    width: 45%;
+    background-color: #666;
+}
+
+.about-content-right {
+    height: 100%;
+    width: 45%;
+    /* background-color: #A855F7; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.photo {
+    height: 80%;
+    width: 80%;
+    background-color: #5b0da4;
+    background-image: url(Assets/my_pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid #a78fba
+}
 
 
 
@@ -483,5 +526,33 @@ p {
 
     #Fourth {
         width: 90%;
+    }
+
+    .about-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about-content-left {
+        height: 100%;
+        width: 100%;
+        background-color: #666; 
+        padding: 1rem;
+    }
+
+    .about-content-right {
+        height: 100%;
+        width: 100%;
+        /* background-color: #A855F7; */
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .photo {
+        height: 100%;
+        width: 95%;
     }
 }
