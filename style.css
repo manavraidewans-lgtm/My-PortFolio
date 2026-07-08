@@ -421,10 +421,15 @@ p {
     }
 
     .hero {
-        padding: 0 5%;
+        padding: 2rem 5%;
+
     }
 
     .theme-toggle {
         transform: scale(0.9);
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
     }
 }
