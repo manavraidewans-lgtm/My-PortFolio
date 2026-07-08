@@ -336,6 +336,9 @@ p {
     border: 0.5px solid #060930;
     border-radius: 10px;
     gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* padding: 0.8rem 1.5rem; */
 }
 
@@ -365,7 +368,8 @@ p {
 
 
 /*      ABOUT SECTION       */
-.about {
+#About {
+    margin-top: 3rem;
     height: 100rem;
     width: 100%;
     background-color: #5b0da4;
