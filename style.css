@@ -407,7 +407,7 @@ p {
 /*      ABOUT SECTION       */
 
 #About {
-    height: 43rem;
+    height: 45rem;
     width: 100%;
     background-color: #fbfbfd;
 }
@@ -418,11 +418,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     padding-top: 1.7rem;
     padding-bottom: 1.5rem;
     color: #7f72c7;
 }
+
 
 .about-content {
     height: 37rem;
@@ -436,7 +437,42 @@ p {
 .about-content-left {
     height: 100%;
     width: 45%;
-    background-color: #666;
+    /* background-color: #666; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 4rem;
+    padding-top: 5rem;
+}
+
+.about-content-left h2 {
+    color: #13162b;
+    font-size: 3rem;
+}
+
+.about-content-left h2 span {
+    color: #583bf2;
+}
+
+.about-content-left p {
+    color: #797b95;
+    font-size: 1.5rem;
+}
+
+.about-content-left button {
+    border-radius: 10px;
+    border: 2px solid #583bf2;
+    padding: 0.5rem 2.5rem;
+    background-color: #f4f1fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content-left button p {
+    color: #583bf2;
 }
 
 .about-content-right {
@@ -457,7 +493,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    border: 1px solid #a78fba
+    border: 1px solid #583bf2;
 }
 
 
@@ -528,19 +564,35 @@ p {
         width: 90%;
     }
 
+    #download p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        color: #08080a; 
+    }
+
+    #view p {
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about-content {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 1rem;
+        height: 54rem;
     }
 
     .about-content-left {
         height: 100%;
         width: 100%;
-        background-color: #666; 
-        padding: 1rem;
+        /* background-color: #666;  */
+        padding: 1rem; 
+        padding-top: 2.8rem;
     }
 
     .about-content-right {
@@ -552,7 +604,10 @@ p {
     }
 
     .photo {
+        margin-top: 1rem;
         height: 100%;
         width: 95%;
     }
+
+
 }
