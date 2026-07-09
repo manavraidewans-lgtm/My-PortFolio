@@ -598,7 +598,7 @@ p {
 }
 
 .technologies-heading h3 {
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     color: #060930;
     margin-bottom: 0.5rem;
 }
@@ -610,7 +610,7 @@ p {
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1.2rem;
+    gap: 1.5rem;
 }
 
 .tech-card {
@@ -630,7 +630,6 @@ p {
 .tech-card h4 {
     color: #060930;
     margin-bottom: 0.4rem;
-
 }
 
 .tech-card p {
@@ -642,6 +641,11 @@ p {
 
 .buttons button p {
     margin-top: 0;
+}
+
+.tech-card:hover {
+    border: 2.2px solid #8686cb;
+    box-shadow: 0 42px 50px rgba(20, 51, 188 , 0.22);
 }
 
 
