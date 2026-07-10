@@ -727,7 +727,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
     gap: 2rem;
 }
 
@@ -824,10 +824,15 @@ p {
 
 /*           CONTACT SECTION           */
 
-#Contact {
-    height: 60rem;
+form {
+    padding-top: 3rem;
+    height: 30rem;
     width: 100%;
-    background-color: mediumpurple;
+    /* background-color: mediumpurple; */
+    background-image: url(Assets/Contact.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -836,6 +841,67 @@ p {
 
 
 
+/*              FOOTER  SECTOIN         */
+
+.footer {
+    /* padding-top: 3rem; */
+    height: 4rem;
+    width: 100%;
+    background-color: peachpuff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+
+.footer-left img {
+    height: 8rem;
+    width: 10rem;
+}
+
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.footer-middle span {
+    font-size: 1.1rem;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    gap: 3rem;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.footer-right span {
+    font-size: 1.1rem;
+}
+
+
+.footer-right span i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    height: 3rem;
+    width: 3rem;
+    color: #fff;
+}
 
 
 
@@ -1192,4 +1258,13 @@ p {
     .project-card-left {
         border-radius: 10px;
     }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-middle {
+        display: none;
+    }
+
 }
