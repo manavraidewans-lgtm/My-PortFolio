@@ -1279,6 +1279,14 @@ form {
         cursor: pointer;
     }
 
+    .project-card-right-buttons button p {
+        font-size: 0.9rem;
+    }
+
+    .project-card-right-buttons button {
+        padding: 0;
+    }
+
     .project-card-right h3 {
         margin-top: -2rem
     }
@@ -1306,5 +1314,64 @@ form {
     }
 }
 
+
+@media (max-width: 390px) {
+
+    .project-card {
+        height: 46rem;
+    }
+    
+    .project-card-left {
+        margin-top: -11rem;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .project-card-right {
+        margin-top: -2rem;
+    }
+
+    .project-card-right {
+        gap: 1rem;
+    }
+
+    .project-card-right-buttons {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+    }
+
+    .project-card-right-buttons button {
+        padding: 0;
+    }
+
+    .project-card-right h3 {
+        margin-top: -2rem
+    }
+
+
+    .anchor {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 1rem;
+    }
+
+    .form-outer {
+        width: 90%;
+    }
+
+    .footer {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .footer-right-left {
+        display: none;
+    }
+}
 
 
