@@ -846,16 +846,72 @@ form {
 
 
 .form-outer {
-    height: 80%;
-    width: 60%;
-    margin-left: 3rem;
+    width: 50%;
+    margin-left: 1.5rem;
     margin-top: 1rem;
     border: 1.5px solid #9c9c9c;
     border-radius: 20px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
 }
 
+.form-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.form-details label {
+    font-size: 1.5rem;
+}
 
+.form-details input {
+    width: 60%;
+    height: 1.8rem;
+    border-radius: 20px;
+    border: 1px solid #9c9c9c;
+}
+
+.form-details textarea {
+    width: 60%;
+    /* height: 1.8rem; */
+    border-radius: 20px;
+    border: 1px solid #9c9c9c;
+}
+
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #9c9c9c;
+    background: linear-gradient( 130deg, #ced8f7, #e2c8ed, #dfa7f6);
+}
+
+.form-button button p {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+    gap: 1rem;
+}
+
+.form-button button p i {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
 
 
 
@@ -1285,4 +1341,15 @@ form {
         display: none;
     }
 
+    .form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-outer {
+        width: 90%;
+    }
 }
