@@ -1104,7 +1104,7 @@ form {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
     .nav-icons {
         position: fixed;
@@ -1223,6 +1223,11 @@ form {
         gap: 2rem;
     }
 
+    .project-card-right {
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+
     .projects-card-outer {
         margin-top: 2rem;
         display: flex;
@@ -1261,8 +1266,12 @@ form {
 
 @media (max-width: 500px) {
 
+    .project-card {
+        height: 45rem;
+    }
+
     .project-card-left {
-        margin-top: -7rem;
+        margin-top: -4rem;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -1315,7 +1324,7 @@ form {
 }
 
 
-@media (max-width: 390px) {
+@media (max-width: 406px) {
 
     .project-card {
         height: 46rem;
@@ -1375,3 +1384,29 @@ form {
 }
 
 
+
+@media (max-width: 350px) {
+
+    .project-card {
+        height: 56rem;
+    }
+
+    .anchor {
+        display: flex;
+        gap: 1;
+    }
+} 
+
+
+
+@media (max-width: 290px) {
+
+    .project-card {
+        height: 84rem;
+    }
+    .anchor {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+} 
