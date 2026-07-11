@@ -1,0 +1,60 @@
+#download:hover{
+    border: 1px solid #8686cb;
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+#download:active {
+    
+}
+
+
+#about:hover{
+    border: 1px solid #6767e1;
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+#download:active {
+    
+}
+
+
+#project-1:hover{
+    border: 1px solid #6767e1;
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+#download:active {
+    
+}
+
+
+.project-card:hover {
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+
+
+.project-card-right-buttons button:hover {
+    border: 1px solid #6767e1;
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+
+
+#submit-form:hover{
+    border: 1px solid #8686cb;
+    box-shadow: 10px 10px 30px #8686cb;
+    transform: translateY(-6px);
+}
+
+#download:active {
+    
+}
+
+
+
